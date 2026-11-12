@@ -23,7 +23,7 @@ Este projeto foi desenvolvido como parte de um desafio prático da **Digital Inn
 ## 🧪 Cenários de Teste
 
 ![nmap usado para Verificar o IP e as portas](imagens/kali&metasploit1.png)
-![nmap](imagens/kali&matasploit2.png)
+![nmap](imagens/kali&metasploit2.png)
 
 ### 1. Ataque de força bruta em FTP
 
