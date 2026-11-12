@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como parte de um desafio prático da **Digital Inn
 
 ## 🧪 Cenários de Teste
 
-![nmap usado para Verificar o IP e as portas](imagens/kali&matasploit1)
+![nmap usado para Verificar o IP e as portas](imagens/kali&metasploit1)
 ![nmap](imagens/kali&matasploit2)
 
 ### 1. Ataque de força bruta em FTP
@@ -57,8 +57,8 @@ medusa -h 192.168.56.102 -U user.txt -P passwords.txt -M ftp -t 1 -T 1
 
 O comando utiliza duas listas pequenas, limitando a quantidade de tentativas simultâneas.
 
-![resultado](imagens/kali&matasploit3)
-![resultado](imagens/kali&matasploit4)
+![resultado](imagens/kali&metasploit3)
+![resultado](imagens/kali&metasploit4)
 
 ### 2. Testes de autenticação em formulário web (DVWA)
 
@@ -79,8 +79,8 @@ O objetivo é estudar como formulários de login podem ser vulneráveis a tentat
 6. Observar as respostas da aplicação.
 7. Comparar o comportamento com níveis de segurança superiores.
 
-![usando medusa e listas de user e passwords](imagens/kali&matasploit5)
-![usando senha descoberta](imagens/kali&matasploit6)
+![usando medusa e listas de user e passwords](imagens/kali&metasploit5)
+![usando senha descoberta](imagens/kali&metasploit6)
 
 ### 3. Password Spraying em SMB
 
@@ -115,8 +115,8 @@ nmap -sV -p 139,445 192.168.56.102
 medusa -h 192.168.56.102 -U users.txt -P smb_passwords.txt -M smbnt -t 1 -T 1
 ```
 
-![ultilizando enum4linux](imagens/kali&matasploit7)
-![descoberta a senha e usario](imagens/kali&matasploit8)
+![ultilizando enum4linux](imagens/kali&metasploit7)
+![descoberta a senha e usario](imagens/kali&metasploit8)
 
 
 
